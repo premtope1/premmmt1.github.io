@@ -1,139 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prem Tope | Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prem Tope - IT Engineering Student | Aspiring Software Developer | Web Development Enthusiast">
+    <meta name="keywords" content="IT Engineer, Web Developer, Portfolio, C++, JavaScript, HTML, CSS">
+    <meta name="author" content="Prem Tope">
+    <meta name="theme-color" content="#00d4ff">
+    
+    <title>Prem Tope | IT Engineer & Web Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
 
-<header>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-text">PT</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<div class="logo">PREM.</div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Welcome to my portfolio ✨</div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Prem Tope</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </h2>
+                <p class="hero-description">
+                    An IT Engineering Student passionate about software development, web technologies, and problem-solving. I'm continuously learning programming, data structures, and modern technologies to build practical solutions that make a difference.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://github.com/premtope1" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        <span>View My Work</span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/premtope1" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prem-tope-3a7a60388" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:premtope1@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-text">
+                            <p>Code</p>
+                            <span>Creative</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="glowing-circle"></div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll to explore</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
 
-<nav>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I'm <strong>Prem Tope</strong>, a passionate <strong>Information Technology Engineering Student</strong> at <strong>Matoshri College of Engineering and Research Centre, Nashik</strong>. My journey in tech is driven by curiosity and a desire to create meaningful solutions through code.
+                    </p>
+                    <p class="about-paragraph">
+                        With a solid foundation in programming, I specialize in <strong>web development</strong> and love working with modern technologies. I'm committed to continuous learning and exploring new paradigms in software development, from data structures to full-stack applications.
+                    </p>
+                    <p class="about-paragraph">
+                        <strong>My Vision:</strong> To become a skilled software engineer who creates innovative, scalable, and user-centric solutions that contribute to the tech industry and help solve real-world problems.
+                    </p>
+                    
+                    <div class="about-highlight">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>B.E. Information Technology</h3>
+                                <p>Matoshri College, Nashik</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-target"></i>
+                            <div>
+                                <h3>Goal</h3>
+                                <p>Professional Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>50+</h3>
+                            <p>Projects Explored</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>100%</h3>
+                            <p>Dedication</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>∞</h3>
+                            <p>Passion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<a href="#home">Home</a>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
 
-<a href="#about">About</a>
+            <div class="skills-showcase">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>
+                            <i class="fas fa-code"></i>
+                            Programming Languages
+                        </h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-card skill-c">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h4>C Programming</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-cpp">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h4>C++</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <p>Intermediate</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<a href="#skills">Skills</a>
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>
+                            <i class="fas fa-globe"></i>
+                            Web Development
+                        </h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-card skill-html">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <p>Expert</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-css">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <p>Expert</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-js">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<a href="#contact">Contact</a>
+                <!-- CS Fundamentals -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>
+                            <i class="fas fa-brain"></i>
+                            CS Fundamentals
+                        </h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-card skill-dsa">
+                            <div class="skill-icon">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <h4>Data Structures</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-oop">
+                            <div class="skill-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h4>OOP</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 86%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-ps">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Problem Solving</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 89%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-</nav>
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <h3>
+                            <i class="fas fa-tools"></i>
+                            Tools & Platforms
+                        </h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-card skill-git">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h4>Git & GitHub</h4>
+                            <p>Advanced</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-responsive">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>Responsive Design</h4>
+                            <p>Expert</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card skill-linux">
+                            <div class="skill-icon">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <h4>Linux/Terminal</h4>
+                            <p>Intermediate</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</header>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcase of my work and learning</p>
+            </div>
 
-<section id="home" class="hero">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-badge">Featured</div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Personal Portfolio Website</h3>
+                    </div>
+                    <p class="project-description">
+                        A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features smooth animations, interactive elements, and GitHub Pages deployment.
+                    </p>
+                    <div class="project-details">
+                        <div class="tech-stack">
+                            <span class="tech">HTML5</span>
+                            <span class="tech">CSS3</span>
+                            <span class="tech">JavaScript</span>
+                            <span class="tech">GitHub Pages</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-code"></i> Frontend</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/premtope1/premmmt1.github.io" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://premtope1.github.io" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
 
-<div class="circle">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>JavaScript Projects</h3>
+                    </div>
+                    <p class="project-description">
+                        Collection of interactive JavaScript projects including calculator, todo app, and DOM manipulation. Built with vanilla JavaScript and responsive design principles.
+                    </p>
+                    <div class="project-details">
+                        <div class="tech-stack">
+                            <span class="tech">JavaScript</span>
+                            <span class="tech">DOM</span>
+                            <span class="tech">CSS</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-code"></i> Frontend</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/premtope1" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
 
-PT
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Data Structures & Algorithms</h3>
+                    </div>
+                    <p class="project-description">
+                        Implementation of fundamental data structures and algorithms in C++. Includes sorting, searching, linked lists, trees, and graph algorithms with detailed comments.
+                    </p>
+                    <div class="project-details">
+                        <div class="tech-stack">
+                            <span class="tech">C++</span>
+                            <span class="tech">DSA</span>
+                            <span class="tech">Algorithms</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-code"></i> Backend</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/premtope1" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
 
-</div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Web Development Projects</h3>
+                    </div>
+                    <p class="project-description">
+                        Various web development projects including responsive websites, form validations, and interactive UI components built with modern HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="project-details">
+                        <div class="tech-stack">
+                            <span class="tech">HTML5</span>
+                            <span class="tech">CSS3</span>
+                            <span class="tech">JavaScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-code"></i> Frontend</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/premtope1" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h1>Prem <span>Tope</span></h1>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate and build something amazing</p>
+            </div>
 
-<h2>Information Technology Engineering Student</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info-section">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:premtope1@gmail.com">premtope1@gmail.com</a></p>
+                        <small>I'll get back to you within 24 hours</small>
+                    </div>
 
-<p>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <h3>Connect Online</h3>
+                        <div class="contact-links">
+                            <a href="https://github.com/premtope1" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/prem-tope-3a7a60388" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
 
-Building innovative solutions through code, creativity and continuous learning.
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Availability</h3>
+                        <p>Open for Internships & Freelance Projects</p>
+                        <small>Ready to take on new challenges</small>
+                    </div>
 
-</p>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Nashik, Maharashtra</p>
+                        <p>India</p>
+                    </div>
+                </div>
 
-<div class="buttons">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required id="name">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required id="email">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required id="subject">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required id="message"></textarea>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="form-note">Or email me directly at <a href="mailto:premtope1@gmail.com">premtope1@gmail.com</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<a href="https://github.com/premtope1" target="_blank">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <h3>Prem Tope</h3>
+                <p>IT Engineering Student | Aspiring Software Developer</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/premtope1" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/prem-tope-3a7a60388" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:premtope1@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Prem Tope. All rights reserved.</p>
+                <p>Built with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
+                <p class="made-by">Handcrafted portfolio • Designed & Developed by Prem Tope</p>
+            </div>
+        </div>
+    </footer>
 
-GitHub
-
-</a>
-
-<a href="https://www.linkedin.com/in/prem-tope-3a7a60388" target="_blank">
-
-LinkedIn
-
-</a>
-
-<a href="mailto:premtope1@gmail.com">
-
-Email
-
-</a>
-
-</div>
-
-</section>
-
-<section id="about">
-
-<h2>About Me</h2>
-
-<div class="box">
-
-I am an Information Technology Engineering student passionate about Software Development, AI, Web Development and Problem Solving.
-
-</div>
-
-</section>
-
-<section id="skills">
-
-<h2>Skills</h2>
-
-<div class="cards">
-
-<div class="card">C</div>
-
-<div class="card">C++</div>
-
-<div class="card">HTML</div>
-
-<div class="card">CSS</div>
-
-<div class="card">Git</div>
-
-<div class="card">GitHub</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<div class="box">
-
-📧 premtope1@gmail.com
-
-<br><br>
-
-💻 github.com/premtope1
-
-<br><br>
-
-🔗 linkedin.com/in/prem-tope-3a7a60388
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 Prem Tope
-
-</footer>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
